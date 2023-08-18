@@ -1,0 +1,92 @@
+/* Write your CSS code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.unordered-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  width: 40%;
+}
+
+.emoji-name {
+  text-align: center;
+}
+
+.love-emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+}
+
+.love-emoji {
+  width: 30%;
+  align-self: center;
+}
+
+.emoji-description {
+  font-size: 20px;
+  align-self: center;
+  color: #0f172a;
+}
+
+.description {
+  color: #1e293b;
+}
+
+@media screen and (max-width: 767px) {
+  .content-container {
+    width: 80%;
+    align-self: center;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .emoji-name {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 50%;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .emoji-name {
+    font-size: 16px;
+  }
+}
